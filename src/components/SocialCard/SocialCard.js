@@ -24,7 +24,7 @@ const SocialCard = ({children, title, facebook, instagram}) => {
 	}
 	return (
 		<>
-			<div>
+			<div class="SocialCard">
 				<Card size="small" title={title} style={{width: 300}}>
 					<p>{children}</p>
 					<p>    {ShowFacebook} {LinkFacebook}</p>
